@@ -1,0 +1,105 @@
+
+.quote {
+
+  background-color: var(--light-color);
+
+  border-left: 6px solid var(--link-color);
+
+  border-radius: 8px;
+
+  margin: 32px 0;
+
+  padding: 24px 32px;
+
+}
+
+.quote blockquote {
+
+  margin: 0;
+
+  font-size: var(--heading-font-size-s);
+
+  font-style: italic;
+
+  line-height: 1.4;
+
+}
+
+.quote blockquote p,
+
+.quote .quote-author p {
+
+  margin: 0;
+
+}
+
+.quote .quote-author {
+
+  margin-top: 16px;
+
+  font-size: var(--body-font-size-s);
+
+  font-weight: 600;
+
+  text-align: right;
+
+}
+
+.quote .quote-author p::before {
+
+  content: "— ";
+
+}
+
+.quote {
+
+  background-color: var(--light-color);
+
+  border-left: 6px solid var(--link-color);
+
+  border-radius: 8px;
+
+  margin: 32px 0;
+
+  padding: 24px 32px;
+
+}
+
+.quote blockquote {
+
+  margin: 0;
+
+  font-size: var(--heading-font-size-s);
+
+  font-style: italic;
+
+  line-height: 1.4;
+
+}
+
+.quote blockquote p,
+
+.quote .quote-author p {
+
+  margin: 0;
+
+}
+
+.quote .quote-author {
+
+  margin-top: 16px;
+
+  font-size: var(--body-font-size-s);
+
+  font-weight: 600;
+
+  text-align: right;
+
+}
+
+.quote .quote-author p::before {
+
+  content: "— ";
+
+}
+ 
