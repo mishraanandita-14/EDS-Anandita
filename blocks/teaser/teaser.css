@@ -1,0 +1,80 @@
+
+.teaser {
+ display: flex;
+ flex-direction: column;
+ margin: 32px 0;
+ border-radius: 12px;
+ overflow: hidden;
+ background-color: var(--background-color);
+ box-shadow: 0 4px 16px rgb(0 0 0 / 15%);
+}
+
+.teaser picture,
+.teaser img {
+ display: block;
+ width: 100%;
+}
+
+.teaser img {
+ height: 300px;
+ object-fit: cover;
+}
+
+.teaser > div:last-child > div {
+ padding: 24px 32px 32px;
+}
+
+.teaser h2 {
+ margin-top: 0;
+ font-size: var(--heading-font-size-l);
+}
+
+.teaser > div:last-child p {
+ margin: 0 0 16px;
+}
+
+.teaser a:any-link {
+ display: inline-block;
+ padding: 8px 24px;
+ border-radius: 24px;
+ background-color: var(--link-color);
+ color: var(--background-color);
+ font-weight: 600;
+ text-decoration: none;
+}
+
+.teaser a:hover {
+ background-color: var(--link-hover-color);
+}
+
+@media (width >= 900px) {
+ .teaser {
+   flex-direction: row;
+ }
+
+ .teaser > div {
+   flex: 1;
+ }
+
+ .teaser img {
+   height: 100%;
+   min-height: 300px;
+ }
+
+ .teaser > div:last-child {
+   display: flex;
+   align-items: center;
+ }
+}
+
+.teaser .image-wrapper {
+ overflow: hidden;
+}
+
+.teaser .image {
+ transition: transform 0.6s ease;
+}
+
+.teaser .image.zoom {
+ transform: scale(1.1);
+}
