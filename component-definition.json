@@ -173,6 +173,24 @@
               }
             }
           }
+        },
+        {
+          "title": "Teaser",
+          "id": "teaser",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Teaser",
+                  "model": "teaser",
+                  "textContent_text": "<h2>Teaser title</h2><p>Write a short description here.</p>",
+                  "textContent_cta": "/",
+                  "textContent_ctaText": "Read more"
+                }
+              }
+            }
+          }
         }
       ]
     }
