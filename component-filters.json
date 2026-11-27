@@ -17,7 +17,14 @@
       "columns",
       "fragment",
       "quote",
-      "teaser"
+      "teaser",
+      "accordion"
+    ]
+  },
+  {
+    "id": "accordion",
+    "components": [
+      "accordion-item"
     ]
   },
   {
