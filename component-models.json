@@ -161,6 +161,65 @@
     ]
   },
   {
+    "id": "bike-card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Bike image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Image alt text",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "bikeName",
+        "label": "Bike name",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "specs_engine",
+        "label": "Engine (e.g. 97.2 cc)",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "specs_power",
+        "label": "Max power (e.g. 5.9 kW)",
+        "required": true
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "buy_price",
+        "label": "Starting price",
+        "required": true
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "buy_link",
+        "label": "Button link"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "buy_linkText",
+        "label": "Button text"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
