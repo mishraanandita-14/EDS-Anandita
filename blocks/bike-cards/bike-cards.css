@@ -1,0 +1,102 @@
+
+.bike-cards {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 80%;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 8px;
+
+}
+
+.bike-cards .bike-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 16px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: var(--background-color);
+  scroll-snap-align: start;
+
+}
+
+.bike-cards .bike-card-image,
+
+.bike-cards .bike-card-name,
+
+.bike-cards .bike-card-price,
+
+.bike-cards .bike-card-cta {
+  grid-column: 1 / -1;
+
+}
+
+.bike-cards .bike-card-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+
+}
+
+.bike-cards .bike-card-name {
+  font-size: var(--heading-font-size-s);
+  font-weight: 700;
+
+}
+
+.bike-cards .bike-card-engine::before,
+
+.bike-cards .bike-card-power::before,
+
+.bike-cards .bike-card-price::before {
+  display: block;
+  font-size: var(--body-font-size-xs);
+  color: #757575;
+
+}
+
+.bike-cards .bike-card-engine::before {
+  content: "Engine";
+
+}
+
+.bike-cards .bike-card-power::before {
+  content: "Max power";
+
+}
+
+.bike-cards .bike-card-price::before {
+  content: "Starting ex-showroom price";
+
+}
+
+.bike-cards .bike-card p {
+  margin: 0;
+
+}
+
+.bike-cards .bike-card-cta a:any-link {
+  display: block;
+  margin: 8px 0 0;
+  padding: 10px 16px;
+  border-radius: 4px;
+  background-color: #e4002b;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+@media (width >= 900px) {
+  .bike-cards {
+    grid-auto-columns: calc((100% - 32px) / 3);
+
+  }
+
+}
+

@@ -18,13 +18,20 @@
       "fragment",
       "quote",
       "teaser",
-      "accordion"
+      "accordion",
+      "bike-cards"
     ]
   },
   {
     "id": "accordion",
     "components": [
       "accordion-item"
+    ]
+  },
+  {
+    "id": "bike-cards",
+    "components": [
+      "bike-card"
     ]
   },
   {
