@@ -59,3 +59,8 @@
   border-top: 1px solid #dadada;
   background-color: var(--background-color);
 }
+
+
+.accordion details summary p {
+ margin: 16px 0;
+}
